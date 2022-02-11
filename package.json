@@ -1,7 +1,7 @@
 {
   "name": "@supercharge/doubly-linked-list",
   "description": "A Doubly Linked List implementation for JavaScript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Marcus Pöhls <marcus@superchargejs.com>",
   "bugs": {
     "url": "https://github.com/supercharge/doubly-linked-list/issues"
