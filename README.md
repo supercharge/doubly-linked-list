@@ -59,6 +59,7 @@ list.isNotEmpty() // true
 
 list.head().value() // 1
 list.tail().value() // 2
+list.tail().prev().value() // 1
 ```
 
 
