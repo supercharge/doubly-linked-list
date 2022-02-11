@@ -5,10 +5,10 @@
   <br/>
   <br/>
   <p>
-    <h3>Linked List</h3>
+    <h3>Doubly Linked List</h3>
   </p>
   <p>
-    Linked List data structure for JavaScript
+    Doubly Linked List data structure for JavaScript
   </p>
   <br/>
   <p>
@@ -30,7 +30,7 @@
 ---
 
 ## Introduction
-The `@supercharge/doubly-linked-list` package provides a JavaScript implementation for the Linked List data structure.
+The `@supercharge/doubly-linked-list` package provides a JavaScript implementation for the Doubly Linked List data structure.
 
 
 ## Installation
@@ -42,22 +42,23 @@ npm i @supercharge/doubly-linked-list
 
 ## Resources
 
-- [Documentation](https://superchargejs.com/docs/linked-list)
+- 📖 &nbsp;[Documentation](https://superchargejs.com/docs/doubly-linked-list)
 
 
 ## Quick Usage Overview
 Using `@supercharge/doubly-linked-list` is pretty straightforward. The package exports a `LinkedList` class providing all methods to interact with the instance.
 
 ```js
-const { LinkedList } = require('@supercharge/doubly-linked-list')
+const { DoublyLinkedList } = require('@supercharge/doubly-linked-list')
 
-const linkedList = new LinkedList()
+const list = new DoublyLinkedList()
 
-linkedList.isEmpty() // true
+list.isEmpty() // true
+list.push(1, 2)
+list.isNotEmpty() // true
 
-linkedList.push(1)
-
-linkedList.isNotEmpty() // true
+list.head().value() // 1
+list.tail().value() // 2
 ```
 
 
